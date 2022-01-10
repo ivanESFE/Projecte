@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header h1#titol{
+    display: inline;
+    text-align: center;
+    bottom: 75px;
+    margin-left: 25px;
+}
+
+header a img{
+    width: 150px;
+    height: 100px;
+    
+}
