@@ -1,3 +1,4 @@
+
 body{
     background-image: url(./imatges/wallapaper.jpg);
     margin: auto;
@@ -5,8 +6,9 @@ body{
 #titol1{
     
     height: 100px;
+    background-color: black;
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 15px;
 }
 
 
@@ -15,6 +17,7 @@ body{
     top: 25px;
     text-align: center;
     color: rgb(139, 214, 95);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 #container{
@@ -36,6 +39,22 @@ body{
     
 }
 
+#cataleg{
+    
+    height: 100px;
+    background-color: black;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+#titol-cataleg{
+    position: relative;
+    top: 25px;
+    margin-top: 15px;
+    text-align: center;
+    color: rgb(139, 214, 95);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 
 
 
