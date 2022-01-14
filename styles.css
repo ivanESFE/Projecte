@@ -1,4 +1,6 @@
-
+header{
+    background-color: whitesmoke;
+}
 body{
     background-image: url(./imatges/wallapaper.jpg);
     margin: auto;
