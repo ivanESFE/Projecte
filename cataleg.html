@@ -4,7 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
     <link rel="stylesheet" href="./css/cataleg.css">
+=======
+    <link rel="stylesheet" href="./styles.css">
+>>>>>>> 8df8238121cb56d1af0da1058e644b28be91ead0
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -26,9 +30,14 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-link active" aria-current="page" href="./cataleg.html">Catàleg</a>
+<<<<<<< HEAD
                     <a class="nav-link" href="./contacte.html">Contacte</a>
                     <a class="nav-link" href="./login.html">Iniciar sessió</a>
                     <a class="nav-link" href="./condicions.html">Condicions</a>
+=======
+                    <a class="nav-link" href="#">Contacte</a>
+                    <a class="nav-link" href="#">Iniciar sessió</a>
+>>>>>>> 8df8238121cb56d1af0da1058e644b28be91ead0
                 </div>
             </div>
         </div>
@@ -37,6 +46,7 @@
 
 
     <!--container-->
+<<<<<<< HEAD
     <header>
         <div class="container">
             <h1 id="titol1">Catàleg</h1>
@@ -264,11 +274,237 @@
                                     <h4 class="item-price">270.79€</h4>
                                     <button class="item-button btn btn-primary addToCart">AFEGIR AL CARRITO</button>
                                 </div>
+=======
+  <header>
+      <div class="container">
+          <h1 id="titol1">Catàleg</h1>
+          <hr>
+      </div>
+  </header>
+
+  <!--carrito-->
+  <section class="shopping-cart">
+    <div class="container">
+        <h1 class="text-center">CARRITO</h1>
+        <hr>
+        <div class="row">
+            <div class="col-6">
+                <div class="shopping-cart-header">
+                <h6>Producte</h6>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="shopping-cart-header">
+                    <h6 class="text-truncate">Preu</h6>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="shopping-cart-header">
+                    <h6>Quantitat</h6>
+                </div>
+            </div>
+        </div>
+        <div class="shopping-cart-items shoppingCartItemsContainer">
+        </div>  
+
+        <div class="row">
+            <div class="col-12">
+                <div class="shopping-cart-total d-flex align-items-center">
+                    <p class="mb-0 ">Total</p>
+                    <p class="ml-4 mb-0 shoppingCartTotal"> 0€</p>
+                    <div class="toast ml-auto bg-info" role="alert" aria-live="assertive" aria-atomic="true" data-delay="2000">
+                        <div class="toast-header">
+                            <span>✅</span>
+                            <strong class="mr-auto ml-1 text-secondary">Element en el carrito</strong>
+                            <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="toast-body text-white">S'ha afegit correctament al carrito</div>
+                    </div>
+                    <button class="btn btn-success ml-auto comprarButton" type="button" data-toggle="modal" data-target="#comprarModal">Comprar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="comprarModal" tabindex="-1" aria-labelledby="comprarModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="comprarModalLabel">Gràcies per la seva compra</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">    
+                    <p>La plaça d'entrega de la vostra compra pot variar d'entre 1 a 7 dies laborables.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Tencar</button>
+                </div>
+            </div>
+        </div>
+        <!--carrito-->
+    </div>
+
+    <!--catàleg-->
+    <section class="store">
+        <div class="container">
+
+            <div class="items">
+                <div class="row">
+
+                    <div class="col-12 col-md-6">
+                        <div class="item shadow mb-4">
+                            <h3 class="item-title">PC1</h3>
+                            <img class="item-image" src="./imatges/pc_msi.jpg">
+
+                            <div class="item-details" data-category="Sobretaula">
+                                <h4 class="item-price">4799.98€</h4>
+                                <button class="item-button btn btn-primary addToCart">AFEGIR AL CARRITO</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="item shadow mb-4">
+                            <h3 class="item-title">Lenovo PC Sobretaula</h3>
+
+                            <img class="item-image" src="./imatges/pc_lenovo.jpg">
+
+                            <div class="item-details">
+                                <h4 class="item-price">2249.99€</h4>
+                                <button class="item-button btn btn-primary addToCart">AFEGIR AL CARRITO</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="item shadow mb-4">
+                            <h3 class="item-title">Dell PC Sobretaula</h3>
+
+                            <img class="item-image" src="./imatges/pc_dell.jpg">
+
+                            <div class="item-details">
+                                <h4 class="item-price">1644.78€</h4>
+                                <button class="item-button btn btn-primary addToCart">AFEGIR AL CARRITO</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="item shadow mb-4">
+                            <h3 class="item-title">Ratoli Razer</h3>
+
+                            <img class="item-image" src="./imatges/raton_razer.jpg">
+
+                            <div class="item-details">
+                                <h4 class="item-price">49.98€</h4>
+                                <button class="item-button btn btn-primary addToCart">AFEGIR AL CARRITO</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="item shadow mb-4">
+                            <h3 class="item-title">Ratoli Trust</h3>
+
+                            <img class="item-image" src="./imatges/raton_trust.jpg">
+                            <div class="item-details">
+                                <h4 class="item-price">26.98€</h4>
+                                <button class="item-button btn btn-primary addToCart">AFEGIR AL CARRITO</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="item shadow mb-4">
+                            <h3 class="item-title">Ratoli Logitech</h3>
+
+                            <img class="item-image" src="./imatges/raton_logitech.jpeg">
+                            <div class="item-details">
+                                <h4 class="item-price">38.78€</h4>
+                                <button class="item-button btn btn-primary addToCart">AFEGIR AL CARRITO</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="item shadow mb-4">
+                            <h3 class="item-title">Ratoli Mars Gaming</h3>
+
+                            <img class="item-image" src="./imatges/auriculares_marsgaming.png">
+
+                            <div class="item-details">
+                                <h4 class="item-price">40€</h4>
+                                <button class="item-button btn btn-primary addToCart">AFEGIR AL CARRITO</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="item shadow mb-4">
+                            <h3 class="item-title">Auriculars Beats Studio3</h3>
+
+                            <img class="item-image" src="./imatges/auriculares_beatsstudio.jpg">
+
+                            <div class="item-details">
+                                <h4 class="item-price">67€</h4>
+                                <button class="item-button btn btn-primary addToCart">AFEGIR AL CARRITO</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="item shadow mb-4">
+                            <h3 class="item-title">Auriculars Logitech</h3>
+
+                            <img class="item-image" src="./imatges/auriculares_logitech.png">
+                            <div class="item-details">
+                                <h4 class="item-price">96€</h4>
+                                <button class="item-button btn btn-primary addToCart">AFEGIR AL CARRITO</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="item shadow mb-4">
+                            <h3 class="item-title">Monitor Benq</h3>
+
+                            <img class="item-image" src="./imatges/monitor_benq.jpg">
+                            <div class="item-details">
+                                <h4 class="item-price">127€</h4>
+                                <button class="item-button btn btn-primary addToCart">AFEGIR AL CARRITO</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="item shadow mb-4">
+                            <h3 class="item-title">Monitor Gigabyte</h3>
+
+                            <img class="item-image" src="./imatges/monitor_gigabyte.jpg">
+                            <div class="item-details">
+                                <h4 class="item-price">247.98€</h4>
+                                <button class="item-button btn btn-primary addToCart">AFEGIR AL CARRITO</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="item shadow mb-4">
+                            <h3 class="item-title">Monitor MSI</h3>
+
+                            <img class="item-image" src="./imatges/monitor_msi.jpg">
+                            <div class="item-details">
+                                <h4 class="item-price">270.79€</h4>
+                                <button class="item-button btn btn-primary addToCart">AFEGIR AL CARRITO</button>
+>>>>>>> 8df8238121cb56d1af0da1058e644b28be91ead0
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+<<<<<<< HEAD
         </section>
 
 
@@ -287,6 +523,27 @@
             integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
             crossorigin="anonymous"></script>
         <!--script-->
+=======
+        </div>
+</section>
+
+
+    <!--script-->
+    <script src=".\cataleg.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <!--script-->
+>>>>>>> 8df8238121cb56d1af0da1058e644b28be91ead0
 </body>
 
 </html>
