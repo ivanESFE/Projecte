@@ -9,11 +9,15 @@ body{
 
 }
 #titol1{
-    
+    position: relative;
+    color: rgb(139, 214, 95);
     height: 100px;
     background-color: black;
-    margin-top: 0px;
+    padding-top: 25px;
     margin-bottom: 15px;
+    text-align: center;
+    
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 
